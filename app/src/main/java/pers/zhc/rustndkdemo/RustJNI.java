@@ -8,5 +8,5 @@ public class RustJNI {
         System.loadLibrary("rust_jni");
     }
 
-    public static native String hello();
+    public static native String hello(Object context);
 }
